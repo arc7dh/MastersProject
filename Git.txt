@@ -1,0 +1,40 @@
+Github 
+September 9, 2019
+
+Git is version control system by tracking changes in computer files & how file versions are shared
+
+Remote repository 			Working directory/Local Repository
+Github							Matlab on laptop
+							
+
+					Untracked	Unmodified	Modified	Staged
+					git add ==========================================>
+							edit file =========>
+					     <==========remove file
+									git add ==========>
+							 <=========================== git commit
+
+
+Github is an online code portfolio
+	also a social network for programmers
+
+
+Initiating local repository
+ls
+cd Documents/<whatever folder pathway you want> (can just hit tab to complete)
+git init (initializes git in chosen folder)
+git status (shows docs)
+vi test.txt (vi allows you to edit files in git)
+	<type whatever>
+	:w (save)
+	:q (quit/return to git format)
+	:wq (save & quit)
+git status (behold, a file)
+git remote add origin <Github URL> (connects to github)
+git add text.txt (stages test.txt)
+git commit -m "<short message>" (officially adds .txt to repository)
+git push -u origin master (pushes files to github)
+cp ../ (go to folder pathway just outside of Git folder)
+	*tab 2x (shows folders and files)
+cp ../<foldername>/<filename> . (dot means "the pathway stops here")
+git status (git check to see if file copied) 
